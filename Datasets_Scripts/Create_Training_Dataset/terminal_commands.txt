@@ -1,0 +1,78 @@
+Example :
+./sgm_nano -@left-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Celsus_SGM_CUDA_2022/src/example/left/" -@right-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Celsus_SGM_CUDA_2022/src/example/right/" -@image-format="png" -disparity_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Create_Training_Dataset/results/disparities/" -colour_disp_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Create_Training_Dataset/results/c_disparities/" -rdleft_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Create_Training_Dataset/results/red_left/"  
+
+3DETH Dataset 
+Training
+
+./sgm_nano -@left-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/train/left/" -@right-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/train/right/" -@image-format="png" -disparity_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/results/train/disparity/" -colour_disp_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/results/train/cdisparity/" -rdleft_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/results/train/left/"  
+
+Test 
+
+./sgm_nano -@left-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/test/left/" -@right-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/test/right/" -@image-format="png" -disparity_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/results/test/disparity/" -colour_disp_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/results/test/cdisparity/" -rdleft_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/results/test/left/"  
+
+InStereo2K
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k
+Training
+
+./sgm_nano -@left-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/train/left/" -@right-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/train/right/" -@image-format="png" -disparity_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/results/train/disparity/" -colour_disp_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/results/train/cdisparity/" -rdleft_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/results/train/left/"  
+
+Test 
+
+./sgm_nano -@left-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/test/left/" -@right-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/test/right/" -@image-format="png" -disparity_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/results/test/disparity/" -colour_disp_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/results/test/cdisparity/" -rdleft_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/results/test/left/"  
+
+
+Sintel Dataset
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/
+
+Training
+
+./sgm_nano -@left-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/left/" -@right-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/right/" -@image-format="png" -disparity_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/results/train/disparity/" -colour_disp_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/results/train/cdisparity/" -rdleft_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/results/train/left/"  
+
+Clara_High_Res Dataset 
+
+/media/bprin12/HDD/Stereo_Dataset/HR-VS/
+
+Training 
+
+./sgm_nano -@left-image-format="/media/bprin12/HDD/Stereo_Dataset/HR-VS/train/left/" -@right-image-format="/media/bprin12/HDD/Stereo_Dataset/HR-VS/train/right/" -@image-format="png" -disparity_path="/media/bprin12/HDD/Stereo_Dataset/HR-VS/results/train/disparity/" -colour_disp_path="/media/bprin12/HDD/Stereo_Dataset/HR-VS/results/train/cdisparity/" -rdleft_path="/media/bprin12/HDD/Stereo_Dataset/HR-VS/results/train/left/"  
+
+
+Kitti 2015
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/training
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/train
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/test
+
+Training 
+
+./sgm_nano -@left-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/train/left/" -@right-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/train/right/" -@image-format="png" -disparity_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/train/r_disparity/" -colour_disp_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/train/r_cdisparity/" -rdleft_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/train/r_left/"  
+
+
+Test
+
+./sgm_nano -@left-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/test/left/" -@right-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/test/right/" -@image-format="png" -disparity_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/test/r_disparity/" -colour_disp_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/test/r_cdisparity/" -rdleft_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/test/r_left/"  
+
+
+Kitti 2012
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/training
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/train
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/test
+
+Training
+
+./sgm_nano -@left-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/train/left/" -@right-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/train/right/" -@image-format="png" -disparity_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/train/r_disparity/" -colour_disp_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/train/r_cdisparity/" -rdleft_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/train/r_left/"  
+
+
+Test
+
+
+./sgm_nano -@left-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/test/left/" -@right-image-format="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/test/right/" -@image-format="png" -disparity_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/test/r_disparity/" -colour_disp_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/test/r_cdisparity/" -rdleft_path="/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/test/r_left/"  
+
+

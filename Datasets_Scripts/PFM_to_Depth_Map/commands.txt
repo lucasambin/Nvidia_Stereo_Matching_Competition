@@ -1,0 +1,6 @@
+python pfm2depth.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/Training/two_view_training /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/Training/ gt_disparity_png
+
+
+python pfm2depth.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Middlebury_2014/training /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Middlebury_2014/disparity_png
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Middlebury_2014

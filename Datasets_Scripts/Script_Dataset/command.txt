@@ -1,0 +1,80 @@
+/home/bprin12/deeplearn/bin
+
+source /home/bprin12/deeplearn/bin/activate
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Script_Dataset
+
+
+Sintel Dataset
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/MPI-Sintel-stereo-training-20150305/training
+
+python data_script.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/MPI-Sintel-stereo-training-20150305/training/final_left /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/MPI-Sintel-stereo-training-20150305/training/left
+
+
+python data_script.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/MPI-Sintel-stereo-training-20150305/training/final_right /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/MPI-Sintel-stereo-training-20150305/training/right
+
+
+python data_script.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/MPI-Sintel-stereo-training-20150305/training/disparities_viz /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Sintel/MPI-Sintel-stereo-training-20150305/training/disparity
+
+
+InStereo2k
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/Instereo2K-part5-part6-test
+
+Training 
+
+python data_script.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/Instereo2K-part5-part6-test/train/train /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/Instereo2K-part5-part6-test/train/left /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/Instereo2K-part5-part6-test/train/right /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/Instereo2K-part5-part6-test/train/disparity
+
+Test 
+
+python data_script.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/Instereo2K-part5-part6-test/test/test /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/Instereo2K-part5-part6-test/test/left /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/Instereo2K-part5-part6-test/test/right /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/InStereo2k/Instereo2K-part5-part6-test/test/disparity
+
+3DETH Dataset
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/Test
+
+Test
+
+python data_script.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/Test/two_view_test /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/Test/left /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/3DETH/Test/right
+
+Carla High Res Dataset
+
+/media/bprin12/HDD/Stereo_Dataset/HR-VS/HR-VS/carla-highres/trainingF
+
+Training
+
+python data_script.py /media/bprin12/HDD/Stereo_Dataset/HR-VS/HR-VS/carla-highres/trainingF /media/bprin12/HDD/Stereo_Dataset/HR-VS/train/left /media/bprin12/HDD/Stereo_Dataset/HR-VS/train/right /media/bprin12/HDD/Stereo_Dataset/HR-VS/train/disparity
+
+
+Kitti 2015
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/training
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/train
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/test
+
+Training 
+
+python data_script.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/training /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/train/left /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/train/right /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/train/disparity
+
+Test
+
+python data_script.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/testing /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/test/left /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/test/right /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2015/data_scene_flow/results/test/disparity
+
+Kitti 2012
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/training
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/train
+
+/home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/test
+
+Training
+
+python data_script.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/training /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/train/left /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/train/right /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/train/disparity
+
+Test
+
+python data_script.py /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/testing /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/test/left /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/test/right /home/bprin12/Scrivania/3D_Data_Processing/Nvidia_competition/Comp_Git/Dataset/Kitti/2012/data_stereo_flow/results/test/disparity
